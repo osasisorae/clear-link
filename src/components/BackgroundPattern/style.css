@@ -1,0 +1,25 @@
+.background-pattern.background-true-size {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.background-pattern.mobile {
+  height: 960px;
+  width: 960px;
+}
+
+.background-pattern.desktop {
+  height: 1440px;
+  width: 1920px;
+}
+
+.background-pattern.breakpoint-mobile {
+  height: 960px;
+  width: 960px;
+}
+
+.background-pattern.breakpoint-desktop {
+  height: 1440px;
+  width: 1920px;
+}

@@ -1,0 +1,23 @@
+.avatar-contrast {
+  border-color: var(--gray-900);
+  border-radius: 200px;
+  opacity: 0.08;
+}
+
+.avatar-contrast.regular {
+  border: 0.75px solid;
+  height: 64px;
+  width: 64px;
+}
+
+.avatar-contrast.light {
+  border: 0.5px solid;
+  height: 32px;
+  width: 32px;
+}
+
+.avatar-contrast.heavy {
+  border: 1px solid;
+  height: 96px;
+  width: 96px;
+}

@@ -1,0 +1,242 @@
+.avatar-group {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.avatar-group .avatars {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.avatar-group .avatar-instance {
+  align-self: stretch !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.avatar-group .class-20 {
+  background-image: url(../../../static/img/avatar-20.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 35px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -8px !important;
+  margin-top: -1.5px !important;
+  width: 35px !important;
+}
+
+.avatar-group .class-21 {
+  background-image: url(../../../static/img/avatar-10.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 43px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -12px !important;
+  margin-top: -1.5px !important;
+  width: 43px !important;
+}
+
+.avatar-group .class-22 {
+  background-image: url(../../../static/img/avatar-30.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 27px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -4px !important;
+  margin-top: -1.5px !important;
+  width: 27px !important;
+}
+
+.avatar-group .class-23 {
+  background-image: url(../../../static/img/avatar-19.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 35px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -8px !important;
+  margin-top: -1.5px !important;
+  width: 35px !important;
+}
+
+.avatar-group .class-24 {
+  background-image: url(../../../static/img/avatar-9.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 43px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -12px !important;
+  margin-top: -1.5px !important;
+  width: 43px !important;
+}
+
+.avatar-group .class-25 {
+  background-image: url(../../../static/img/avatar-29.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 27px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -4px !important;
+  margin-top: -1.5px !important;
+  width: 27px !important;
+}
+
+.avatar-group .class-26 {
+  background-image: url(../../../static/img/avatar-18.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 35px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -8px !important;
+  margin-top: -1.5px !important;
+  width: 35px !important;
+}
+
+.avatar-group .class-27 {
+  background-image: url(../../../static/img/avatar-8.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 43px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -12px !important;
+  margin-top: -1.5px !important;
+  width: 43px !important;
+}
+
+.avatar-group .class-28 {
+  background-image: url(../../../static/img/avatar-28.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 27px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -4px !important;
+  margin-top: -1.5px !important;
+  width: 27px !important;
+}
+
+.avatar-group .class-29 {
+  background-image: url(../../../static/img/avatar-17.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 35px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -8px !important;
+  margin-top: -1.5px !important;
+  width: 35px !important;
+}
+
+.avatar-group .class-30 {
+  background-image: url(../../../static/img/avatar-7.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 43px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -12px !important;
+  margin-top: -1.5px !important;
+  width: 43px !important;
+}
+
+.avatar-group .class-31 {
+  background-image: url(../../../static/img/avatar-27.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 27px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -4px !important;
+  margin-top: -1.5px !important;
+  width: 27px !important;
+}
+
+.avatar-group .class-32 {
+  background-image: url(../../../static/img/avatar-16.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 35px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -8px !important;
+  margin-top: -1.5px !important;
+  width: 35px !important;
+}
+
+.avatar-group .class-33 {
+  background-image: url(../../../static/img/avatar-6.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 43px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -12px !important;
+  margin-top: -1.5px !important;
+  width: 43px !important;
+}
+
+.avatar-group .class-34 {
+  background-image: url(../../../static/img/avatar-26.png) !important;
+  border: 1.5px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 27px !important;
+  margin-bottom: -1.5px !important;
+  margin-left: -4px !important;
+  margin-top: -1.5px !important;
+  width: 27px !important;
+}
+
+.avatar-group .class-35 {
+  width: 32px !important;
+}
+
+.avatar-group .class-36 {
+  width: 40px !important;
+}
+
+.avatar-group .class-37 {
+  width: 24px !important;
+}
+
+.avatar-group .class-38 {
+  border: 2px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 36px !important;
+  margin-bottom: -2px !important;
+  margin-left: -8px !important;
+  margin-right: -2px !important;
+  margin-top: -2px !important;
+  position: relative !important;
+  width: 36px !important;
+}
+
+.avatar-group .class-39 {
+  border: 2px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 44px !important;
+  margin-bottom: -2px !important;
+  margin-left: -12px !important;
+  margin-right: -2px !important;
+  margin-top: -2px !important;
+  position: relative !important;
+  width: 44px !important;
+}
+
+.avatar-group .class-40 {
+  border: 2px solid !important;
+  border-color: var(--basewhite) !important;
+  height: 28px !important;
+  margin-bottom: -2px !important;
+  margin-left: -4px !important;
+  margin-right: -2px !important;
+  margin-top: -2px !important;
+  position: relative !important;
+  width: 28px !important;
+}
+
+.avatar-group .avatar-add-button-instance {
+  margin-bottom: -1px !important;
+  margin-right: -1px !important;
+  margin-top: -1px !important;
+  position: relative !important;
+}

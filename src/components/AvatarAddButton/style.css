@@ -1,0 +1,241 @@
+.avatar-add-button {
+  border: 1px dashed;
+}
+
+.avatar-add-button .plus-wrapper {
+  align-items: center;
+  border-radius: 12px;
+  display: inline-flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+}
+
+.avatar-add-button .plus-8 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.avatar-add-button .plus-1 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.avatar-add-button .overlap {
+  position: absolute;
+}
+
+.avatar-add-button .content-2 {
+  align-items: center;
+  border-radius: 12px;
+  display: inline-flex;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  padding: 4px;
+  position: absolute;
+  top: 0;
+}
+
+.avatar-add-button .cursor {
+  height: 20px;
+  position: absolute;
+  width: 20px;
+}
+
+.avatar-add-button .lines-wrapper {
+  background-size: 100% 100%;
+  height: 21px;
+  position: relative;
+  top: 1px;
+  width: 19px;
+}
+
+.avatar-add-button .lines {
+  height: 4px;
+  left: 8px;
+  position: absolute;
+  top: 10px;
+  width: 5px;
+}
+
+.avatar-add-button .tooltip {
+  align-items: center;
+  box-shadow: var(--shadow-lg);
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  top: -43px;
+}
+
+.avatar-add-button .content-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--gray-900);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 8px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.avatar-add-button .text-10 {
+  font-family: var(--text-xs-semibold-font-family);
+  font-size: var(--text-xs-semibold-font-size);
+  font-style: var(--text-xs-semibold-font-style);
+  font-weight: var(--text-xs-semibold-font-weight);
+  letter-spacing: var(--text-xs-semibold-letter-spacing);
+  line-height: var(--text-xs-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.avatar-add-button .tooltip-2 {
+  height: 6px;
+  margin-top: -539px;
+  position: relative;
+  width: 16px;
+}
+
+.avatar-add-button.size-14-md {
+  border-radius: 20px;
+  height: 42px;
+  width: 42px;
+}
+
+.avatar-add-button.size-14-sm {
+  border-radius: 16px;
+  height: 34px;
+  width: 34px;
+}
+
+.avatar-add-button.state-4-disabled {
+  background-color: var(--gray-50);
+  border-color: var(--gray-200);
+}
+
+.avatar-add-button.state-4-hover {
+  background-color: var(--gray-50);
+  border-color: var(--gray-300);
+  position: relative;
+}
+
+.avatar-add-button.state-4-focus {
+  background-color: var(--basewhite);
+  border-color: var(--gray-300);
+  box-shadow: var(--focus-ring-4px-gray-100);
+  overflow: hidden;
+}
+
+.avatar-add-button.state-4-default {
+  background-color: var(--basewhite);
+  border-color: var(--gray-300);
+}
+
+.avatar-add-button.size-14-xs {
+  border-radius: 12px;
+  height: 26px;
+  width: 26px;
+}
+
+.avatar-add-button.size-14-md .plus-wrapper {
+  left: 6px;
+  top: 6px;
+}
+
+.avatar-add-button.size-14-sm .plus-wrapper {
+  left: 4px;
+  top: 4px;
+}
+
+.avatar-add-button.size-14-xs .overlap {
+  height: 32px;
+  left: 0;
+  top: 0;
+  width: 36px;
+}
+
+.avatar-add-button.size-14-md .overlap {
+  height: 38px;
+  left: 6px;
+  top: 6px;
+  width: 42px;
+}
+
+.avatar-add-button.size-14-sm .overlap {
+  height: 32px;
+  left: 4px;
+  top: 4px;
+  width: 36px;
+}
+
+.avatar-add-button.size-14-xs .cursor {
+  left: 16px;
+  top: 12px;
+}
+
+.avatar-add-button.size-14-md .cursor {
+  left: 22px;
+  top: 18px;
+}
+
+.avatar-add-button.size-14-sm .cursor {
+  left: 16px;
+  top: 12px;
+}
+
+.avatar-add-button.size-14-xs .lines-wrapper {
+  background-image: url(../../../static/img/shape-2.svg);
+}
+
+.avatar-add-button.size-14-md .lines-wrapper {
+  background-image: url(../../../static/img/shape.svg);
+}
+
+.avatar-add-button.size-14-sm .lines-wrapper {
+  background-image: url(../../../static/img/shape-1.svg);
+}
+
+.avatar-add-button.size-14-xs .tooltip {
+  left: -26px;
+}
+
+.avatar-add-button.size-14-md .tooltip {
+  left: -18px;
+}
+
+.avatar-add-button.size-14-sm .tooltip {
+  left: -22px;
+}
+
+.avatar-add-button.size-14-xs .text-10 {
+  color: var(--gray-50);
+}
+
+.avatar-add-button.size-14-md .text-10 {
+  color: var(--basewhite);
+}
+
+.avatar-add-button.size-14-sm .text-10 {
+  color: var(--gray-50);
+}
+
+.avatar-add-button.size-14-xs .tooltip-2 {
+  margin-left: -1301.5px;
+}
+
+.avatar-add-button.size-14-md .tooltip-2 {
+  margin-left: -1309px;
+}
+
+.avatar-add-button.size-14-sm .tooltip-2 {
+  margin-left: -1305px;
+}

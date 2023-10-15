@@ -1,0 +1,1109 @@
+.button {
+  all: unset;
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.button .dot {
+  height: 10px;
+  position: relative;
+  width: 10px;
+}
+
+.button .dot-2 {
+  border-radius: 4px;
+  height: 8px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 8px;
+}
+
+.button .text-7 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .placeholder {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.button .placeholder-183 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.button .text-8 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.size-11-sm {
+  gap: 8px;
+}
+
+.button.hierarchy-secondary-gray {
+  border: 1px solid;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.button.size-11-md {
+  gap: 8px;
+}
+
+.button.hierarchy-secondary-color {
+  border: 1px solid;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.button.size-11-lg {
+  gap: 8px;
+}
+
+.button.hierarchy-primary {
+  border: 1px solid;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.button.icon-only {
+  gap: 8px;
+}
+
+.button.size-11-xl {
+  gap: 8px;
+}
+
+.button.hierarchy-tertiary-color {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.button.hierarchy-tertiary-gray {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.button.hierarchy-secondary-gray.state-0-default {
+  background-color: var(--basewhite);
+  box-shadow: var(--shadow-xs);
+}
+
+.button.hierarchy-secondary-gray.state-0-hover {
+  box-shadow: var(--shadow-xs);
+}
+
+.button.state-0-focused.hierarchy-secondary-gray {
+  background-color: var(--basewhite);
+}
+
+.button.hierarchy-secondary-color.state-0-disabled {
+  box-shadow: var(--shadow-xs);
+}
+
+.button.icon-only.size-11-xl {
+  padding: 14px;
+}
+
+.button.icon-only.size-11-md {
+  padding: 10px;
+}
+
+.button.icon-dot-leading.size-11-two-xl {
+  gap: 12px;
+}
+
+.button.state-0-hover.hierarchy-secondary-color {
+  box-shadow: var(--shadow-xs);
+}
+
+.button.hierarchy-primary.state-0-hover {
+  box-shadow: var(--shadow-xs);
+}
+
+.button.size-11-lg.icon-only {
+  padding: 12px;
+}
+
+.button.state-0-default.hierarchy-secondary-color {
+  box-shadow: var(--shadow-xs);
+}
+
+.button.hierarchy-secondary-gray.state-0-disabled {
+  background-color: var(--basewhite);
+  box-shadow: var(--shadow-xs);
+}
+
+.button.icon-default.size-11-two-xl {
+  gap: 12px;
+}
+
+.button.hierarchy-primary.state-0-default {
+  box-shadow: var(--shadow-xs);
+}
+
+.button.hierarchy-primary.state-0-disabled {
+  box-shadow: var(--shadow-xs);
+}
+
+.button.size-11-sm.icon-only {
+  padding: 8px;
+}
+
+.button.icon-only.size-11-two-xl {
+  padding: 16px;
+}
+
+.button.size-11-sm.hierarchy-secondary-color.icon-default {
+  padding: 8px 14px;
+}
+
+.button.icon-dot-leading.hierarchy-primary.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.destructive-false.hierarchy-secondary-color.state-0-disabled {
+  background-color: var(--primary-25);
+  border-color: var(--primary-25);
+}
+
+.button.size-11-xl.hierarchy-secondary-color.icon-default {
+  padding: 12px 20px;
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-hover {
+  background-color: var(--gray-50);
+  border-color: var(--gray-300);
+}
+
+.button.hierarchy-tertiary-gray.size-11-sm.icon-default {
+  padding: 8px 14px;
+}
+
+.button.size-11-lg.hierarchy-tertiary-gray.icon-dot-leading {
+  padding: 10px 18px;
+}
+
+.button.hierarchy-primary.icon-default.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.hierarchy-tertiary-color.size-11-xl.icon-default {
+  padding: 12px 20px;
+}
+
+.button.hierarchy-tertiary-gray.size-11-md.icon-default {
+  padding: 10px 16px;
+}
+
+.button.hierarchy-secondary-gray.destructive-true.state-0-disabled {
+  border-color: var(--error-200);
+}
+
+.button.size-11-xl.hierarchy-secondary-color.icon-dot-leading {
+  padding: 12px 20px;
+}
+
+.button.hierarchy-primary.destructive-false.state-0-default {
+  background-color: var(--primary-600);
+  border-color: var(--primary-600);
+}
+
+.button.state-0-hover.destructive-true.hierarchy-secondary-color {
+  background-color: var(--error-100);
+  border-color: var(--error-200);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-secondary-gray {
+  border-color: var(--error-300);
+  box-shadow: var(--shadow-xs-focused-4px-error-100);
+}
+
+.button.hierarchy-tertiary-gray.destructive-true.state-0-hover {
+  background-color: var(--error-50);
+}
+
+.button.icon-default.hierarchy-secondary-color.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.hierarchy-secondary-gray.size-11-md.icon-default {
+  padding: 10px 16px;
+}
+
+.button.size-11-md.hierarchy-secondary-color.icon-dot-leading {
+  padding: 10px 16px;
+}
+
+.button.state-0-focused.hierarchy-primary.destructive-false {
+  background-color: var(--primary-600);
+  border-color: var(--primary-600);
+  box-shadow: var(--shadow-xs-focused-4px-primary-100);
+}
+
+.button.hierarchy-primary.destructive-true.state-0-hover {
+  background-color: var(--error-700);
+  border-color: var(--error-700);
+}
+
+.button.icon-dot-leading.hierarchy-tertiary-gray.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.hierarchy-tertiary-gray.size-11-md.icon-dot-leading {
+  padding: 10px 16px;
+}
+
+.button.icon-dot-leading.hierarchy-secondary-color.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.size-11-lg.hierarchy-secondary-color.icon-default {
+  padding: 10px 18px;
+}
+
+.button.hierarchy-primary.destructive-false.state-0-disabled {
+  background-color: var(--primary-200);
+  border-color: var(--primary-200);
+}
+
+.button.size-11-lg.hierarchy-primary.icon-dot-leading {
+  padding: 10px 18px;
+}
+
+.button.hierarchy-primary.size-11-md.icon-dot-leading {
+  padding: 10px 16px;
+}
+
+.button.size-11-lg.hierarchy-primary.icon-default {
+  padding: 10px 18px;
+}
+
+.button.icon-default.hierarchy-tertiary-color.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.size-11-lg.hierarchy-secondary-color.icon-dot-leading {
+  padding: 10px 18px;
+}
+
+.button.size-11-sm.hierarchy-tertiary-color.icon-dot-leading {
+  padding: 8px 14px;
+}
+
+.button.hierarchy-tertiary-gray.size-11-sm.icon-dot-leading {
+  padding: 8px 14px;
+}
+
+.button.hierarchy-primary.size-11-sm.icon-dot-leading {
+  padding: 8px 14px;
+}
+
+.button.state-0-hover.destructive-true.hierarchy-tertiary-color {
+  background-color: var(--error-50);
+}
+
+.button.hierarchy-tertiary-gray.destructive-false.state-0-hover {
+  background-color: var(--gray-50);
+}
+
+.button.hierarchy-tertiary-gray.size-11-xl.icon-dot-leading {
+  padding: 12px 20px;
+}
+
+.button.hierarchy-tertiary-color.size-11-xl.icon-dot-leading {
+  padding: 12px 20px;
+}
+
+.button.hierarchy-secondary-gray.size-11-xl.icon-dot-leading {
+  padding: 12px 20px;
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-disabled {
+  border-color: var(--gray-200);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-secondary-color {
+  background-color: var(--primary-50);
+  border-color: var(--primary-200);
+  box-shadow: var(--shadow-xs-focused-4px-primary-100);
+}
+
+.button.hierarchy-primary.size-11-sm.icon-default {
+  padding: 8px 14px;
+}
+
+.button.hierarchy-secondary-gray.size-11-xl.icon-default {
+  padding: 12px 20px;
+}
+
+.button.state-0-hover.destructive-false.hierarchy-secondary-color {
+  background-color: var(--primary-100);
+  border-color: var(--primary-200);
+}
+
+.button.size-11-lg.hierarchy-tertiary-color.icon-default {
+  padding: 10px 18px;
+}
+
+.button.size-11-lg.hierarchy-tertiary-gray.icon-default {
+  padding: 10px 18px;
+}
+
+.button.state-0-default.destructive-true.hierarchy-secondary-color {
+  background-color: var(--error-50);
+  border-color: var(--error-200);
+}
+
+.button.hierarchy-primary.size-11-md.icon-default {
+  padding: 10px 16px;
+}
+
+.button.hierarchy-primary.destructive-false.state-0-hover {
+  background-color: var(--primary-700);
+  border-color: var(--primary-700);
+}
+
+.button.destructive-false.state-0-default.hierarchy-secondary-color {
+  background-color: var(--primary-50);
+  border-color: var(--primary-200);
+}
+
+.button.size-11-lg.hierarchy-secondary-gray.icon-dot-leading {
+  padding: 10px 18px;
+}
+
+.button.size-11-md.hierarchy-secondary-color.icon-default {
+  padding: 10px 16px;
+}
+
+.button.state-0-focused.destructive-true.hierarchy-secondary-color {
+  background-color: var(--error-50);
+  border-color: var(--error-200);
+  box-shadow: var(--shadow-xs-focused-4px-error-100);
+}
+
+.button.hierarchy-primary.destructive-true.state-0-disabled {
+  background-color: var(--error-200);
+  border-color: var(--error-200);
+}
+
+.button.size-11-lg.hierarchy-secondary-gray.icon-default {
+  padding: 10px 18px;
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-default {
+  border-color: var(--gray-300);
+}
+
+.button.hierarchy-secondary-gray.state-0-default.destructive-true {
+  border-color: var(--error-300);
+}
+
+.button.hierarchy-tertiary-color.size-11-md.icon-default {
+  padding: 10px 16px;
+}
+
+.button.hierarchy-secondary-gray.size-11-sm.icon-dot-leading {
+  padding: 8px 14px;
+}
+
+.button.state-0-focused.hierarchy-primary.destructive-true {
+  background-color: var(--error-600);
+  border-color: var(--error-600);
+  box-shadow: var(--shadow-xs-focused-4px-error-100);
+}
+
+.button.hierarchy-tertiary-gray.icon-default.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.icon-dot-leading.hierarchy-secondary-gray.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.destructive-true.hierarchy-secondary-color.state-0-disabled {
+  background-color: var(--error-25);
+  border-color: var(--error-25);
+}
+
+.button.hierarchy-tertiary-color.size-11-md.icon-dot-leading {
+  padding: 10px 16px;
+}
+
+.button.state-0-focused.destructive-false.hierarchy-secondary-gray {
+  border-color: var(--gray-300);
+  box-shadow: var(--shadow-xs-focused-4px-gray-100);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-tertiary-color {
+  background-color: var(--primary-50);
+}
+
+.button.hierarchy-secondary-gray.destructive-true.state-0-hover {
+  background-color: var(--error-50);
+  border-color: var(--error-300);
+}
+
+.button.hierarchy-primary.size-11-xl.icon-dot-leading {
+  padding: 12px 20px;
+}
+
+.button.size-11-sm.hierarchy-tertiary-color.icon-default {
+  padding: 8px 14px;
+}
+
+.button.hierarchy-secondary-gray.icon-default.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.icon-dot-leading.hierarchy-tertiary-color.size-11-two-xl {
+  padding: 16px 28px;
+}
+
+.button.size-11-sm.hierarchy-secondary-color.icon-dot-leading {
+  padding: 8px 14px;
+}
+
+.button.size-11-lg.hierarchy-tertiary-color.icon-dot-leading {
+  padding: 10px 18px;
+}
+
+.button.hierarchy-secondary-gray.size-11-sm.icon-default {
+  padding: 8px 14px;
+}
+
+.button.hierarchy-secondary-gray.size-11-md.icon-dot-leading {
+  padding: 10px 16px;
+}
+
+.button.hierarchy-tertiary-gray.size-11-xl.icon-default {
+  padding: 12px 20px;
+}
+
+.button.hierarchy-primary.size-11-xl.icon-default {
+  padding: 12px 20px;
+}
+
+.button.hierarchy-primary.state-0-default.destructive-true {
+  background-color: var(--error-600);
+  border-color: var(--error-600);
+}
+
+.button.hierarchy-primary .dot-2 {
+  background-color: var(--basewhite);
+}
+
+.button.state-0-focused.hierarchy-secondary-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-focused.hierarchy-link-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-hover.hierarchy-tertiary-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-focused.hierarchy-tertiary-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-focused.hierarchy-tertiary-gray .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.hierarchy-link-gray.state-0-default .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.hierarchy-tertiary-gray.state-0-hover .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-hover.hierarchy-link-gray .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-default.hierarchy-link-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-default.hierarchy-secondary-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.hierarchy-secondary-gray.state-0-default .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.hierarchy-secondary-gray.state-0-hover .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-focused.hierarchy-secondary-gray .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-hover.hierarchy-link-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-hover.hierarchy-secondary-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-focused.hierarchy-link-gray .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.hierarchy-tertiary-gray.state-0-default .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.state-0-default.hierarchy-tertiary-color .dot-2 {
+  background-color: var(--success-500);
+}
+
+.button.destructive-false.hierarchy-link-color.state-0-disabled .dot-2 {
+  background-color: var(--gray-300);
+}
+
+.button.hierarchy-link-gray.destructive-true.state-0-disabled .dot-2 {
+  background-color: var(--error-300);
+}
+
+.button.destructive-true.hierarchy-secondary-color.state-0-disabled .dot-2 {
+  background-color: var(--error-300);
+}
+
+.button.hierarchy-secondary-gray.destructive-true.state-0-disabled .dot-2 {
+  background-color: var(--error-300);
+}
+
+.button.destructive-false.hierarchy-secondary-color.state-0-disabled .dot-2 {
+  background-color: var(--primary-300);
+}
+
+.button.destructive-false.hierarchy-tertiary-color.state-0-disabled .dot-2 {
+  background-color: var(--gray-300);
+}
+
+.button.hierarchy-tertiary-gray.destructive-true.state-0-disabled .dot-2 {
+  background-color: var(--error-300);
+}
+
+.button.hierarchy-tertiary-gray.destructive-false.state-0-disabled .dot-2 {
+  background-color: var(--gray-300);
+}
+
+.button.destructive-false.hierarchy-link-gray.state-0-disabled .dot-2 {
+  background-color: var(--gray-300);
+}
+
+.button.destructive-true.state-0-disabled.hierarchy-link-color .dot-2 {
+  background-color: var(--error-300);
+}
+
+.button.destructive-true.hierarchy-tertiary-color.state-0-disabled .dot-2 {
+  background-color: var(--error-300);
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-disabled .dot-2 {
+  background-color: var(--gray-300);
+}
+
+.button.size-11-md .text-7 {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button.size-11-sm .text-7 {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button.size-11-xl .text-7 {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button.size-11-lg .text-7 {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button.size-11-two-xl .text-7 {
+  font-family: var(--text-lg-semibold-font-family);
+  font-size: var(--text-lg-semibold-font-size);
+  font-style: var(--text-lg-semibold-font-style);
+  font-weight: var(--text-lg-semibold-font-weight);
+  letter-spacing: var(--text-lg-semibold-letter-spacing);
+  line-height: var(--text-lg-semibold-line-height);
+}
+
+.button.hierarchy-primary .text-7 {
+  color: var(--basewhite);
+}
+
+.button.destructive-false.state-0-default.hierarchy-link-gray .text-7 {
+  color: var(--gray-600);
+}
+
+.button.state-0-default.destructive-true.hierarchy-link-gray .text-7 {
+  color: var(--error-700);
+}
+
+.button.destructive-false.hierarchy-link-color.state-0-disabled .text-7 {
+  color: var(--gray-300);
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-default .text-7 {
+  color: var(--gray-700);
+}
+
+.button.hierarchy-secondary-gray.state-0-default.destructive-true .text-7 {
+  color: var(--error-700);
+}
+
+.button.destructive-false.hierarchy-secondary-color.state-0-disabled .text-7 {
+  color: var(--primary-300);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-secondary-color .text-7 {
+  color: var(--primary-700);
+}
+
+.button.destructive-false.hierarchy-tertiary-color.state-0-disabled .text-7 {
+  color: var(--gray-300);
+}
+
+.button.hierarchy-tertiary-gray.destructive-true.state-0-disabled .text-7 {
+  color: var(--error-300);
+}
+
+.button.hierarchy-tertiary-gray.destructive-false.state-0-disabled .text-7 {
+  color: var(--gray-300);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-secondary-color .text-7 {
+  color: var(--primary-800);
+}
+
+.button.state-0-focused.hierarchy-tertiary-gray.destructive-false .text-7 {
+  color: var(--gray-600);
+}
+
+.button.state-0-focused.hierarchy-tertiary-gray.destructive-true .text-7 {
+  color: var(--error-700);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-link-gray .text-7 {
+  color: var(--gray-700);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-tertiary-color .text-7 {
+  color: var(--primary-700);
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-hover .text-7 {
+  color: var(--gray-800);
+}
+
+.button.destructive-true.hierarchy-secondary-color.state-0-disabled .text-7 {
+  color: var(--error-300);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-link-color .text-7 {
+  color: var(--primary-700);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-secondary-gray .text-7 {
+  color: var(--gray-700);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-tertiary-color .text-7 {
+  color: var(--primary-800);
+}
+
+.button.destructive-true.state-0-disabled.hierarchy-link-color .text-7 {
+  color: var(--error-300);
+}
+
+.button.state-0-hover.hierarchy-link-gray.destructive-true .text-7 {
+  color: var(--error-800);
+}
+
+.button.hierarchy-tertiary-color.state-0-default.destructive-false .text-7 {
+  color: var(--primary-700);
+}
+
+.button.state-0-default.hierarchy-tertiary-color.destructive-true .text-7 {
+  color: var(--error-700);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-link-gray .text-7 {
+  color: var(--gray-600);
+}
+
+.button.hierarchy-tertiary-gray.destructive-false.state-0-default .text-7 {
+  color: var(--gray-600);
+}
+
+.button.hierarchy-secondary-gray.destructive-true.state-0-hover .text-7 {
+  color: var(--error-800);
+}
+
+.button.state-0-default.destructive-true.hierarchy-link-color .text-7 {
+  color: var(--error-700);
+}
+
+.button.state-0-default.destructive-false.hierarchy-link-color .text-7 {
+  color: var(--primary-700);
+}
+
+.button.hierarchy-link-gray.destructive-true.state-0-disabled .text-7 {
+  color: var(--error-300);
+}
+
+.button.state-0-default.destructive-true.hierarchy-secondary-color .text-7 {
+  color: var(--error-700);
+}
+
+.button.hierarchy-secondary-gray.destructive-true.state-0-disabled .text-7 {
+  color: var(--error-300);
+}
+
+.button.state-0-hover.destructive-true.hierarchy-tertiary-color .text-7 {
+  color: var(--error-800);
+}
+
+.button.hierarchy-tertiary-gray.destructive-false.state-0-hover .text-7 {
+  color: var(--gray-700);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-tertiary-color .text-7 {
+  color: var(--error-700);
+}
+
+.button.destructive-true.hierarchy-tertiary-color.state-0-disabled .text-7 {
+  color: var(--error-300);
+}
+
+.button.state-0-hover.destructive-true.hierarchy-link-color .text-7 {
+  color: var(--error-800);
+}
+
+.button.destructive-false.state-0-default.hierarchy-secondary-color .text-7 {
+  color: var(--primary-700);
+}
+
+.button.state-0-hover.destructive-true.hierarchy-secondary-color .text-7 {
+  color: var(--error-800);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-secondary-gray .text-7 {
+  color: var(--error-700);
+}
+
+.button.state-0-focused.hierarchy-link-gray.destructive-true .text-7 {
+  color: var(--error-700);
+}
+
+.button.hierarchy-tertiary-gray.destructive-true.state-0-hover .text-7 {
+  color: var(--error-800);
+}
+
+.button.hierarchy-tertiary-gray.state-0-default.destructive-true .text-7 {
+  color: var(--error-700);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-secondary-color .text-7 {
+  color: var(--error-700);
+}
+
+.button.destructive-false.hierarchy-link-gray.state-0-disabled .text-7 {
+  color: var(--gray-300);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-link-color .text-7 {
+  color: var(--primary-800);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-link-color .text-7 {
+  color: var(--error-700);
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-disabled .text-7 {
+  color: var(--gray-300);
+}
+
+.button.size-11-md .text-8 {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button.size-11-sm .text-8 {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button.size-11-xl .text-8 {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button.size-11-lg .text-8 {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button.size-11-two-xl .text-8 {
+  font-family: var(--text-lg-semibold-font-family);
+  font-size: var(--text-lg-semibold-font-size);
+  font-style: var(--text-lg-semibold-font-style);
+  font-weight: var(--text-lg-semibold-font-weight);
+  letter-spacing: var(--text-lg-semibold-letter-spacing);
+  line-height: var(--text-lg-semibold-line-height);
+}
+
+.button.hierarchy-primary .text-8 {
+  color: var(--basewhite);
+}
+
+.button.destructive-false.state-0-default.hierarchy-link-gray .text-8 {
+  color: var(--gray-600);
+}
+
+.button.state-0-default.destructive-true.hierarchy-link-gray .text-8 {
+  color: var(--error-700);
+}
+
+.button.destructive-false.hierarchy-link-color.state-0-disabled .text-8 {
+  color: var(--gray-300);
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-default .text-8 {
+  color: var(--gray-700);
+}
+
+.button.hierarchy-secondary-gray.state-0-default.destructive-true .text-8 {
+  color: var(--error-700);
+}
+
+.button.destructive-false.hierarchy-secondary-color.state-0-disabled .text-8 {
+  color: var(--primary-300);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-secondary-color .text-8 {
+  color: var(--primary-700);
+}
+
+.button.destructive-false.hierarchy-tertiary-color.state-0-disabled .text-8 {
+  color: var(--gray-300);
+}
+
+.button.hierarchy-tertiary-gray.destructive-true.state-0-disabled .text-8 {
+  color: var(--error-300);
+}
+
+.button.hierarchy-tertiary-gray.destructive-false.state-0-disabled .text-8 {
+  color: var(--gray-300);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-secondary-color .text-8 {
+  color: var(--primary-800);
+}
+
+.button.state-0-focused.hierarchy-tertiary-gray.destructive-false .text-8 {
+  color: var(--gray-600);
+}
+
+.button.state-0-focused.hierarchy-tertiary-gray.destructive-true .text-8 {
+  color: var(--error-700);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-link-gray .text-8 {
+  color: var(--gray-700);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-tertiary-color .text-8 {
+  color: var(--primary-700);
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-hover .text-8 {
+  color: var(--gray-800);
+}
+
+.button.destructive-true.hierarchy-secondary-color.state-0-disabled .text-8 {
+  color: var(--error-300);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-link-color .text-8 {
+  color: var(--primary-700);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-secondary-gray .text-8 {
+  color: var(--gray-700);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-tertiary-color .text-8 {
+  color: var(--primary-800);
+}
+
+.button.destructive-true.state-0-disabled.hierarchy-link-color .text-8 {
+  color: var(--error-300);
+}
+
+.button.state-0-hover.hierarchy-link-gray.destructive-true .text-8 {
+  color: var(--error-800);
+}
+
+.button.hierarchy-tertiary-color.state-0-default.destructive-false .text-8 {
+  color: var(--primary-700);
+}
+
+.button.state-0-default.hierarchy-tertiary-color.destructive-true .text-8 {
+  color: var(--error-700);
+}
+
+.button.state-0-focused.destructive-false.hierarchy-link-gray .text-8 {
+  color: var(--gray-600);
+}
+
+.button.hierarchy-tertiary-gray.destructive-false.state-0-default .text-8 {
+  color: var(--gray-600);
+}
+
+.button.hierarchy-secondary-gray.destructive-true.state-0-hover .text-8 {
+  color: var(--error-800);
+}
+
+.button.state-0-default.destructive-true.hierarchy-link-color .text-8 {
+  color: var(--error-700);
+}
+
+.button.state-0-default.destructive-false.hierarchy-link-color .text-8 {
+  color: var(--primary-700);
+}
+
+.button.hierarchy-link-gray.destructive-true.state-0-disabled .text-8 {
+  color: var(--error-300);
+}
+
+.button.state-0-default.destructive-true.hierarchy-secondary-color .text-8 {
+  color: var(--error-700);
+}
+
+.button.hierarchy-secondary-gray.destructive-true.state-0-disabled .text-8 {
+  color: var(--error-300);
+}
+
+.button.state-0-hover.destructive-true.hierarchy-tertiary-color .text-8 {
+  color: var(--error-800);
+}
+
+.button.hierarchy-tertiary-gray.destructive-false.state-0-hover .text-8 {
+  color: var(--gray-700);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-tertiary-color .text-8 {
+  color: var(--error-700);
+}
+
+.button.destructive-true.hierarchy-tertiary-color.state-0-disabled .text-8 {
+  color: var(--error-300);
+}
+
+.button.state-0-hover.destructive-true.hierarchy-link-color .text-8 {
+  color: var(--error-800);
+}
+
+.button.destructive-false.state-0-default.hierarchy-secondary-color .text-8 {
+  color: var(--primary-700);
+}
+
+.button.state-0-hover.destructive-true.hierarchy-secondary-color .text-8 {
+  color: var(--error-800);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-secondary-gray .text-8 {
+  color: var(--error-700);
+}
+
+.button.state-0-focused.hierarchy-link-gray.destructive-true .text-8 {
+  color: var(--error-700);
+}
+
+.button.hierarchy-tertiary-gray.destructive-true.state-0-hover .text-8 {
+  color: var(--error-800);
+}
+
+.button.hierarchy-tertiary-gray.state-0-default.destructive-true .text-8 {
+  color: var(--error-700);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-secondary-color .text-8 {
+  color: var(--error-700);
+}
+
+.button.destructive-false.hierarchy-link-gray.state-0-disabled .text-8 {
+  color: var(--gray-300);
+}
+
+.button.state-0-hover.destructive-false.hierarchy-link-color .text-8 {
+  color: var(--primary-800);
+}
+
+.button.state-0-focused.destructive-true.hierarchy-link-color .text-8 {
+  color: var(--error-700);
+}
+
+.button.hierarchy-secondary-gray.destructive-false.state-0-disabled .text-8 {
+  color: var(--gray-300);
+}

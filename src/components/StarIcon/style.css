@@ -1,0 +1,176 @@
+.star-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.star-icon .overlap-group-2 {
+  height: 20px;
+  position: relative;
+}
+
+.star-icon .star-background {
+  height: 17px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 18px;
+}
+
+.star-icon .star {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.star-icon .img {
+  height: 17px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+}
+
+.star-icon .star-wrapper {
+  height: 20px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.star-icon .star-2 {
+  height: 20px;
+  left: -4107px;
+  position: absolute;
+  top: -586px;
+  width: 20px;
+}
+
+.star-icon.zero {
+  position: relative;
+}
+
+.star-icon.fifty .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.twenty .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.seventy .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.eighty .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.sixty .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.ninety .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.ten .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.thirty .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.forty .overlap-group-2 {
+  width: 19px;
+}
+
+.star-icon.zero .star {
+  width: 3px;
+}
+
+.star-icon.one-hundred .star {
+  width: 20px;
+}
+
+.star-icon.fifty .star {
+  width: 10px;
+}
+
+.star-icon.twenty .star {
+  width: 5px;
+}
+
+.star-icon.seventy .star {
+  width: 13px;
+}
+
+.star-icon.eighty .star {
+  width: 15px;
+}
+
+.star-icon.sixty .star {
+  width: 11px;
+}
+
+.star-icon.ninety .star {
+  width: 17px;
+}
+
+.star-icon.ten .star {
+  width: 3px;
+}
+
+.star-icon.thirty .star {
+  width: 7px;
+}
+
+.star-icon.forty .star {
+  width: 9px;
+}
+
+.star-icon.zero .img {
+  width: 2px;
+}
+
+.star-icon.one-hundred .img {
+  width: 18px;
+}
+
+.star-icon.fifty .img {
+  width: 9px;
+}
+
+.star-icon.twenty .img {
+  width: 4px;
+}
+
+.star-icon.seventy .img {
+  width: 12px;
+}
+
+.star-icon.eighty .img {
+  width: 14px;
+}
+
+.star-icon.sixty .img {
+  width: 10px;
+}
+
+.star-icon.ninety .img {
+  width: 16px;
+}
+
+.star-icon.ten .img {
+  width: 2px;
+}
+
+.star-icon.thirty .img {
+  width: 6px;
+}
+
+.star-icon.forty .img {
+  width: 8px;
+}

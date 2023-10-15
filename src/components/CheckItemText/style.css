@@ -1,0 +1,335 @@
+.check-item-text {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  position: relative;
+}
+
+.check-item-text .check-icon {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.check-item-text .text-wrap {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.check-item-text .p {
+  align-self: stretch;
+  color: var(--gray-600);
+  margin-top: -1px;
+  position: relative;
+}
+
+.check-item-text .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 2px 0px 0px;
+  position: relative;
+}
+
+.check-item-text .text-2 {
+  align-self: stretch;
+  color: var(--gray-600);
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.check-item-text .check-icon-2 {
+  height: 36px !important;
+  position: relative !important;
+  width: 36px !important;
+}
+
+.check-item-text .text-wrap-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 4px 0px 0px;
+  position: relative;
+}
+
+.check-item-text .text-3 {
+  align-self: stretch;
+  color: var(--gray-600);
+  font-family: var(--text-xl-regular-font-family);
+  font-size: var(--text-xl-regular-font-size);
+  font-style: var(--text-xl-regular-font-style);
+  font-weight: var(--text-xl-regular-font-weight);
+  letter-spacing: var(--text-xl-regular-letter-spacing);
+  line-height: var(--text-xl-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.check-item-text .check-icon-3 {
+  height: 28px !important;
+  position: relative !important;
+  width: 28px !important;
+}
+
+.check-item-text .text-wrap-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.check-item-text .text-4 {
+  align-self: stretch;
+  color: var(--gray-600);
+  margin-top: -1px;
+  position: relative;
+}
+
+.check-item-text .text-wrap-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.check-item-text .text-5 {
+  align-self: stretch;
+  color: var(--gray-600);
+  margin-top: -1px;
+  position: relative;
+}
+
+.check-item-text .check-icon-4 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.check-item-text .text-wrap-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.check-item-text .text-6 {
+  align-self: stretch;
+  color: var(--gray-600);
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.check-item-text .text-wrap-6 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.check-item-text.breakpoint-2-mobile {
+  width: 343px;
+}
+
+.check-item-text.breakpoint-2-desktop {
+  width: 400px;
+}
+
+.check-item-text .size-5-md {
+  padding: 2px 0px 0px;
+}
+
+.check-item-text .size-5-sm {
+  padding: 2px 0px 0px;
+}
+
+.check-item-text .size-5-lg {
+  padding: 2px 0px 0px;
+}
+
+.check-item-text .breakpoint-3-mobile {
+  padding: 2px 0px 0px;
+}
+
+.check-item-text .breakpoint-3-desktop.size-5-xl {
+  padding: 4px 0px 0px;
+}
+
+.check-item-text .breakpoint-5-mobile.size-7-md {
+  padding: 2px 0px 0px;
+}
+
+.check-item-text .breakpoint-7-mobile.size-9-md {
+  padding: 2px 0px 0px;
+}
+
+.check-item-text .text-wrap.size-5-sm .p {
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+}
+
+.check-item-text .text-wrap.size-5-lg .p {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap.breakpoint-3-desktop.size-5-md .p {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap.breakpoint-3-desktop.size-5-xl .p {
+  font-family: var(--text-xl-regular-font-family);
+  font-size: var(--text-xl-regular-font-size);
+  font-style: var(--text-xl-regular-font-style);
+  font-weight: var(--text-xl-regular-font-weight);
+  letter-spacing: var(--text-xl-regular-letter-spacing);
+  line-height: var(--text-xl-regular-line-height);
+}
+
+.check-item-text .text-wrap.breakpoint-3-mobile.size-5-md .p {
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+}
+
+.check-item-text .text-wrap.breakpoint-3-mobile.size-5-xl .p {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-3.size-7-sm .text-4 {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-3.size-7-xl .text-4 {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-3.breakpoint-5-desktop .text-4 {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-3.size-7-lg .text-4 {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-3.breakpoint-5-mobile.size-7-md .text-4 {
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+}
+
+.check-item-text .text-wrap-4.size-9-sm .text-5 {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-4.size-9-xl .text-5 {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-4.breakpoint-7-desktop .text-5 {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-4.size-9-lg .text-5 {
+  font-family: var(--text-lg-regular-font-family);
+  font-size: var(--text-lg-regular-font-size);
+  font-style: var(--text-lg-regular-font-style);
+  font-weight: var(--text-lg-regular-font-weight);
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height: var(--text-lg-regular-line-height);
+}
+
+.check-item-text .text-wrap-4.breakpoint-7-mobile.size-9-md .text-5 {
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+}

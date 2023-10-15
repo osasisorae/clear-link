@@ -1,0 +1,158 @@
+.check-icon .instance-node-4 {
+  height: 24px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 24px !important;
+}
+
+.check-icon .check-circle {
+  height: 36px !important;
+  left: 2px !important;
+  position: absolute !important;
+  top: 2px !important;
+  width: 36px !important;
+}
+
+.check-icon .instance-node-5 {
+  height: 20px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 20px !important;
+}
+
+.check-icon .instance-node-6 {
+  height: 28px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 28px !important;
+}
+
+.check-icon .instance-node-7 {
+  height: 32px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 32px !important;
+}
+
+.check-icon .instance-node-8 {
+  height: 36px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 36px !important;
+}
+
+.check-icon .instance-node-9 {
+  height: 40px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 40px !important;
+}
+
+.check-icon.size-4-md {
+  background-size: 100% 100%;
+  border-radius: 14px;
+  height: 28px;
+  width: 28px;
+}
+
+.check-icon.size-4-sm {
+  background-size: 100% 100%;
+  border-radius: 12px;
+  height: 24px;
+  width: 24px;
+}
+
+.check-icon.size-4-xl {
+  background-size: 100% 100%;
+  border-radius: 18px;
+  height: 36px;
+  width: 36px;
+}
+
+.check-icon.size-4-lg {
+  background-size: 100% 100%;
+  border-radius: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+.check-icon.size-4-xs {
+  background-size: 100% 100%;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.check-icon.size-4-two-xl {
+  border-radius: 20px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  width: 40px;
+}
+
+.check-icon.size-4-xs.primary {
+  background-image: url(../../../static/img/check-circle-19.svg);
+}
+
+.check-icon.size-4-xs.gray {
+  background-image: url(../../../static/img/check-circle-18.svg);
+}
+
+.check-icon.size-4-lg.success {
+  background-image: url(../../../static/img/check-circle-11.svg);
+}
+
+.check-icon.success.size-4-md {
+  background-image: url(../../../static/img/check-circle-14.svg);
+}
+
+.check-icon.size-4-xs.success {
+  background-image: url(../../../static/img/check-circle-17.svg);
+}
+
+.check-icon.size-4-lg.primary {
+  background-image: url(../../../static/img/check-circle-13.svg);
+}
+
+.check-icon.size-4-lg.gray {
+  background-image: url(../../../static/img/check-circle-12.svg);
+}
+
+.check-icon.primary.size-4-md {
+  background-image: url(../../../static/img/check-circle-16.svg);
+}
+
+.check-icon.size-4-md.gray {
+  background-image: url(../../../static/img/check-circle-15.svg);
+}
+
+.check-icon.primary.size-4-xl {
+  background-image: url(../../../static/img/check-circle-7.svg);
+}
+
+.check-icon.success.size-4-sm {
+  background-image: url(../../../static/img/check-circle-20.svg);
+}
+
+.check-icon.size-4-xl.gray {
+  background-image: url(../../../static/img/check-circle-6.svg);
+}
+
+.check-icon.success.size-4-xl {
+  background-image: url(../../../static/img/check-circle-5.svg);
+}
+
+.check-icon.primary.size-4-sm {
+  background-image: url(../../../static/img/check-circle-22.svg);
+}
+
+.check-icon.size-4-sm.gray {
+  background-image: url(../../../static/img/check-circle-21.svg);
+}
